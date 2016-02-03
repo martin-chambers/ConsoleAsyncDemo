@@ -19,12 +19,6 @@ namespace ConsoleAsyncDemo
             Console.WriteLine("Finished. Press any key to continue ...");
             Console.ReadKey();
         }
-
-        private void validate(string[] args)
-        {
-        }
-
-
         static async Task MainAsync(string[] args)
         {
             try
@@ -105,8 +99,6 @@ namespace ConsoleAsyncDemo
                     Console.WriteLine("SYNCHRONOUS OPERATIONS COMPLETE ...");
                     Console.WriteLine("");
                 }
-
-
             }
             catch (Exception ex)
             {
